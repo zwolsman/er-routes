@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/registration-system/registration-system.iml" filepath="$PROJECT_DIR$/registration-system/registration-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registration-system_main.iml" filepath="$PROJECT_DIR$/.idea/modules/registration-system_main.iml" group="registration-system" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/registration-system_test.iml" filepath="$PROJECT_DIR$/.idea/modules/registration-system_test.iml" group="registration-system" />
       <module fileurl="file://$PROJECT_DIR$/scraper/scraper.iml" filepath="$PROJECT_DIR$/scraper/scraper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scraper_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scraper_main.iml" group="scraper" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/scraper_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scraper_test.iml" group="scraper" />
