@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/simulator/simulator.iml" filepath="$PROJECT_DIR$/simulator/simulator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simulator_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simulator_main.iml" group="simulator" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/simulator_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simulator_test.iml" group="simulator" />
+      <module fileurl="file://$PROJECT_DIR$/static-police/static-police.iml" filepath="$PROJECT_DIR$/static-police/static-police.iml" />
       <module fileurl="file://$PROJECT_DIR$/visualizer/visualizer.iml" filepath="$PROJECT_DIR$/visualizer/visualizer.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/visualizer_main.iml" filepath="$PROJECT_DIR$/.idea/modules/visualizer_main.iml" group="visualizer" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/visualizer_test.iml" filepath="$PROJECT_DIR$/.idea/modules/visualizer_test.iml" group="visualizer" />
