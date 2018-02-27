@@ -1,12 +1,23 @@
-package domain;
+package com.s63d.domain;
 
+import javax.persistence.*;
 import java.util.HashSet;
 
+@Entity
 public class Vehicle {
+    @Id @GeneratedValue
+    private long Id;
+
+    @Column(unique = true)
     private String licensePlate;
+    @Column(unique = true)
     private String model;
+
     private Boolean stolen;
+    @OneToMany
     private HashSet<Trip> trips;
+
+    @OneToOne
     private Cartracker cartracker;
 
     public Vehicle(String licensePlate, String model, Boolean stolen, HashSet<Trip> trips, Cartracker cartracker) {

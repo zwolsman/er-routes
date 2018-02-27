@@ -1,9 +1,15 @@
-package domain;
+package com.s63d.domain;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.*;
 public class Permission {
+
+    @Id @GeneratedValue
+    private long Id;
+
     private String description;
 
-    public Permission(String description) {
+    public Permission( String description) {
         this.description = description;
     }
 

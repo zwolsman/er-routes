@@ -1,14 +1,20 @@
-package domain;
+package com.s63d.domain;
 
-import java.time.DateTimeException;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 import java.util.Date;
 
+@Entity
 public class Location {
-    public String latitude;
-    public String longitude;
-    public Date timeStamp;
+    @Id
+    @GeneratedValue
+    private long Id;
+    private String latitude;
+    private String longitude;
+    private Date timeStamp;
 
-    public Location(String latitude, String longitude, Date timeStamp) {
+    public Location( String latitude, String longitude, Date timeStamp) {
         this.latitude = latitude;
         this.longitude = longitude;
         this.timeStamp = timeStamp;
@@ -36,5 +42,13 @@ public class Location {
 
     public void setTimeStamp(Date timeStamp) {
         this.timeStamp = timeStamp;
+    }
+
+    public long getId() {
+        return Id;
+    }
+
+    public void setId(long id) {
+        Id = id;
     }
 }
