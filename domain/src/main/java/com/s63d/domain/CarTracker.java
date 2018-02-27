@@ -4,13 +4,13 @@ import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-public class Cartracker {
+public class CarTracker {
     @Id @GeneratedValue
     private long Id;
     @Column(unique = true)
     private String serialNumber;
 
-    public Cartracker(String serialNumber) {
+    public CarTracker(String serialNumber) {
         this.serialNumber = serialNumber;
     }
 

@@ -18,14 +18,14 @@ public class Vehicle {
     private HashSet<Trip> trips;
 
     @OneToOne
-    private Cartracker cartracker;
+    private CarTracker carTracker;
 
-    public Vehicle(String licensePlate, String model, Boolean stolen, HashSet<Trip> trips, Cartracker cartracker) {
+    public Vehicle(String licensePlate, String model, Boolean stolen, HashSet<Trip> trips, CarTracker carTracker) {
         this.licensePlate = licensePlate;
         this.model = model;
         this.stolen = stolen;
         this.trips = trips;
-        this.cartracker = cartracker;
+        this.carTracker = carTracker;
     }
 
     public String getLicensePlate() {
@@ -60,11 +60,11 @@ public class Vehicle {
         this.trips = trips;
     }
 
-    public Cartracker getCartracker() {
-        return cartracker;
+    public CarTracker getCartracker() {
+        return carTracker;
     }
 
-    public void setCartracker(Cartracker cartracker) {
-        this.cartracker = cartracker;
+    public void setCartracker(CarTracker carTracker) {
+        this.carTracker = carTracker;
     }
 }
